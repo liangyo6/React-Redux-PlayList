@@ -1,0 +1,27 @@
+.likedlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid red;
+    flex-direction:row;
+  }
+  
+  .detail{
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+  }
+  
+  .btns{
+    display: flex;
+    justify-content: space-around;
+  }
+
+    
+  .listenedbtn{
+    background-color:red;
+  }
+
+  .likedbtn{
+    background-color:red;
+  }

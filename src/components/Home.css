@@ -1,0 +1,37 @@
+.Home {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+
+.playlist{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: solid red;
+  flex-direction:row;
+}
+
+.detail{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+}
+
+.listenedbtn{
+  background-color:red;
+}
+
+.likedbtn{
+  background-color:red;
+}
